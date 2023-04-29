@@ -17,9 +17,7 @@ class LayoutDemoPanel(bpy.types.Panel):
         # Create a simple row.
         layout.label(text=" Simple Row:")
 
-        row = layout.row()
-        row.prop(scene, "frame_start")
-        row.prop(scene, "frame_end")
+        
 
         # Create an row where the buttons are aligned to each other.
         layout.label(text=" Aligned Row:")
